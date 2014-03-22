@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SAW</string>
+    <string name="action_settings">Settings</string>
+    <string name="enable_service_string">Enable service</string>
+    <string name="timeout_string">Timout</string>
+    <string name="minutes_string">minutes</string>
+    <string name="uks_string">Unknown Sources:</string>
+    <string name="off_string">OFF</string>
+    <string name="on_string">ON</string>
+    <string name="num_15">15</string>
+    <string name="config_uks_string">Configure Unknown Sources</string>
+    <string name="title_activity_notification">NotificationResetService</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
