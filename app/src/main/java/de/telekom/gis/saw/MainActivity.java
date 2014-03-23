@@ -44,7 +44,11 @@ public class MainActivity extends Activity {
 	boolean isServiceActive;
 	Integer alarmMgrInterval;
 	long alarmTimerStart;
-
+    /*
+	 * if alarmTimerStart value != 0
+	 * 	then alarmTimerStart contains UNIX time stamp in milseconds (long)
+	 *   of first time "Unknown Source" activated was detected by CheckerService
+	 */
     public MainActivity() {
         isServiceActive = false;
         alarmMgrInterval = 5;
@@ -52,11 +56,7 @@ public class MainActivity extends Activity {
         notificationID = NOTIFICATION_NONE;
         alarmTimerStart = 0;// value 0 denotes "alarmTimerStart not set"
     }
-	/*
-	 * if alarmTimerStart value != 0
-	 * 	then alarmTimerStart contains UNIX time stamp in milseconds (long)
-	 *   of first time "Unknown Source" activated was detected by CheckerService
-	 */
+
 
 	protected void onPause() {
 		super.onPause();

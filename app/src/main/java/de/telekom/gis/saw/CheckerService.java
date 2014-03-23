@@ -178,10 +178,8 @@ public class CheckerService extends Service {
     				 * 09		if notification in status bar not active
     				 * 10			raise notification
     				 */
-    				else {
-    					// TODO remove quark
-//    				if (currentTime - alarmTimerStart >= timerInterval * 60 * 1000) {
-   					if (currentTime - alarmTimerStart >= 15 * 1000)
+    				else if (currentTime - alarmTimerStart >= timerInterval * 60 * 1000)
+//   					if (currentTime - alarmTimerStart >= 15 * 1000)
                         if (notificationID.equals(NOTIFICATION_NONE)) {
                             // raise notification
                             Log.v("CheckerService", "Raise Notification");
@@ -210,7 +208,6 @@ public class CheckerService extends Service {
                             notification.flags |= Notification.FLAG_AUTO_CANCEL;
                             notificationMgr.notify(NOTIFICATION_UKS, notification);
                         }
-    				}
     			}
     			/*
     			 * 11 else // Unknown Sources == false
