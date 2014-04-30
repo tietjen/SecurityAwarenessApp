@@ -1,5 +1,31 @@
-app/build/
+# build application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
 .idea/
 .gradle/
-app/app.iml
-security-awareness-app.iml
+build/
