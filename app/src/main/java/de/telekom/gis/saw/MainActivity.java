@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
 	long alarmTimerStart;
     /*
 	 * if alarmTimerStart value != 0
-	 * 	then alarmTimerStart contains UNIX time stamp in milseconds (long)
+	 * 	then alarmTimerStart contains UNIX time stamp in miliseconds (long)
 	 *   of first time "Unknown Source" activated was detected by CheckerService
 	 */
     public MainActivity() {
