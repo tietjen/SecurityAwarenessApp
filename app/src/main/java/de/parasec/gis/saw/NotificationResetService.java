@@ -1,4 +1,4 @@
-package de.telekom.gis.saw;
+package de.parasec.gis.saw;
 
 import android.os.IBinder;
 import android.util.Log;

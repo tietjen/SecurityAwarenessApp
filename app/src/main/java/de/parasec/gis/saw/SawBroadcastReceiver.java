@@ -1,4 +1,4 @@
-package de.telekom.gis.saw;
+package de.parasec.gis.saw;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
