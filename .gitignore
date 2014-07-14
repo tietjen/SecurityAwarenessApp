@@ -14,8 +14,8 @@ gen/
 
 # Local configuration file
 local.properties
-SecurityAwarenessApp.iml
-*.iml
+# SecurityAwarenessApp.iml
+# *.iml
 
 # Windows thumbnail db
 Thumbs.db
